@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Commerces by Chibuzor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="top-wrapper">
+        <div class="container">
+            <nav class="top-nav">
+                <a href="#">
+                    <img src="./assets/mobile/logo.svg" alt="logo" width="143" height="25" loading="lazy" decoding="async">
+                </a>
+                <div class="nav-items hidden lg:flex">
+                    <a href="#">
+                        <p class="navitems-text">Home</p>
+                    </a>
+                    <a href="#">
+                        <p class="navitems-text">Headphones</p>
+                    </a>
+                    <a href="#">
+                        <p class="navitems-text">Speakers</p>
+                    </a>
+                    <a href="#">
+                        <p class="navitems-text">Earphones</p>
+                    </a>
+                </div>
+                <img src="./assets/mobile/icon-cart.svg" id="icon-cart" alt="logo" width="23" height="20" loading="lazy" decoding="async">
+            </nav>
+            <div class="nav-items flex justify-center lg:hidden flex-wrap white-text pt-1h pb-1h ">
+                <a href="#">
+                    <p class="navitems-text">Home</p>
+                </a>
+                <a href="#">
+                    <p class="navitems-text">Headphones</p>
+                </a>
+                <a href="#">
+                    <p class="navitems-text">Speakers</p>
+                </a>
+                <a href="#">
+                    <p class="navitems-text">Earphones</p>
+                </a>
+            </div>
+            <div class="modal" id="cart">
+                <div class="cart-wrapper">
+                    <div class="flex justify-btw items-center mb-1-5">
+                        <h6>CART (3)</h6>
+                        <button >Remove all</button>
+                    </div>
+                    <div class="flex justify-btw items-center mb-1 mt-1">
+                        <div class="flex gap-1 items-center">
+                            <img class="w-55px" src="./assets/product-xx59-headphones/desktop/image-category-page-preview.jpg" alt="XX59" style="border-radius: 8px;">
+                            <div class="flex flex-col gap-0.125">
+                                <p class="sub">XX59</p>
+                                <p class="body">$ 899</p>
+                            </div>
+                        </div>
+                        <input class="counter-sm" type="number" value="1"> 
+                    </div>
+                    <div class="flex justify-btw items-center mb-1 mt-1">
+                        <div class="flex gap-1 items-center">
+                            <img class="w-55px" src="./assets/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg" alt="XX99 MK II" style="border-radius: 8px;">
+                            <div class="flex flex-col gap-0.125">
+                                <p class="sub">XX99 MK II</p>
+                                <p class="body">$ 2999</p>
+                            </div>
+                        </div>
+                        <input class="counter-sm" type="number" value="1"> 
+                    </div>
+                    <div class="flex justify-btw items-center mb-1 mt-1">
+                        <div class="flex gap-1 items-center">
+                            <img class="w-55px" src="./assets/product-yx1-earphones/desktop/image-category-page-preview.jpg" alt="YX1" style="border-radius: 8px;">
+                            <div class="flex flex-col gap-0.125">
+                                <p class="sub">YX1</p>
+                                <p class="body">$ 599</p>
+                            </div>
+                        </div>
+                        <input class="counter-sm" type="number" value="1"> 
+                    </div>
+                    <div class="flex justify-btw items-center mb-1-5 mt-1-5">
+                        <h6>TOTAL</h6> 
+                        <h6>$ 5,396</h6>
+                    </div>
+                    <a href="#"><button class="new-prodot-btn" style="width: 100%;">CHECKOUT</button></a>
+                </div>
+            </div>
+            <div class="new-prodot flex justify-center pt-9 lg:justify-start" >
+                <div class="flex flex-col items-center lg:items-start gap-1">
+                    <p class="body new-prodot-head">NEW PRODUCT</p>
+                    <div class="wit-396">
+                        <h1 class="new-prodot-h1 text-center lg:text-left" >XX99 Mark II Headphones
+                    </h1></div>
+                    <div class="wit-349">
+                        <p class="body text-center lg:text-left">Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
+                    </div>
+                    <a href="#">
+                        <button class="new-prodot-btn mt-2">SEE PRODUCT</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container flex flex-wrap justify-center gap-2 top-product-section">
+        <div class="product-card">
+            <img src="./assets/mobile/headphone.png" alt="headphone" class="top-product-img">
+            <h4>HEADPHONES</h4>
+            <a href="#">
+                <button class="product-btn">Shop</button>
+            </a>
+        </div>
+        <div class="product-card">
+            <img src="./assets/mobile/speaker.png" alt="speaker" class="top-product-img">
+            <h4>SPEAKERS</h4>
+            <a href="#">
+                <button class="product-btn">Shop</button>
+            </a>
+        </div>
+        <div class="product-card">
+            <img src="./assets/mobile/earphone.png" alt="EARphone" class="top-product-img2">
+            <h4>EARPHONES</h4>
+            <a href="#">
+                <button class="product-btn">Shop</button>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="mid-product-section">
+            <div class="mid-product-1">
+                <div class="flex justify-center">
+                    <img src="./assets/mobile/speaker.png" alt="speaker" class="mid-product-1-img">
+                </div>
+                <div class="flex flex-col gap-1 items-center lg:items-start ">
+                    <div class="wit-396">
+                        <h1 class="new-prodot-h1 t-norap text-center color-white lg:text-left"> ZX9 SPEAKER</h1>
+                    </div>
+                    <div class="wit-349">
+                        <p class="text-center color-white lg:text-left">Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
+                    </div>
+                    <a href="#">
+                        <button class="secondary-btn mt-2">SEE PRODUCT</button>
+                    </a>
+                </div>
+            </div>
+            <div class="mid-product-2">
+                <div class="flex flex-col">
+                    <h3>ZX7 SPEAKER</h3>
+                    <a href="#">
+                        <button class="secondary-btn mt-1-75">SEE PRODUCT</button>
+                    </a>
+                </div>
+            </div>
+            <div class="mid-product-3">
+                <div class="earpod-img"></div>
+                <div class="flex flex-col">
+                    <h3>YX1 EARPHONES</h3>
+                    <a href="#">
+                        <button class="secondary-btn2 mt-1-75">SEE PRODUCT</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container flex flex-col-rev justify-btw lg:flex-row items-center product-brand-section">
+        <div class="wit-100p flex flex-col justify-center gap-1">
+            <div class="wit-100p wit-396">
+                <h3 class="text-center lg:text-left">BRINGING YOU THE BEST AUDIO GEAR</h3>
+            </div>
+            <div class="wit-100p lg:w-4/6">
+                <p class="body text-center lg:text-left">
+                    Located at the heart of New York City, Audiophile is the premier store
+                    for high end headphones, earphones, speakers, and audio accessories. We
+                    have a large showroom and luxury demonstration rooms available for you
+                    to browse and experience a wide range of our products. Stop by our store
+                    to meet some of the fantastic people who make Audiophile the best place
+                    to buy your portable audio equipment.
+                </p>
+            </div>
+        </div>
+        <img src="./assets/mobile/image-best-gear.jpg" alt="best gear" class="mb-4 lg:mb-0">
+    </div>
+    <footer class="footer">
+        <nav class="container flex flex-col lg:justify-btw items-center lg:flex-row gap-2">
+            <img src="./assets/mobile/logo.svg" alt="logo" width="143" height="25" loading="lazy" decoding="async">
+            <div class="flex lg:flex-row nav-items gap-2 lg:gap-3 flex-col items-center mb-1 mt-1 lg:mb-0 lg:mt-0">
+                <a href="#">
+                    <p class="navitems-text">Home</p>
+                </a>
+                <a href="#">
+                    <p class="navitems-text">Headphones</p>
+                </a>
+                <a href="#">
+                    <p class="navitems-text">Speakers</p>
+                </a>
+                <a href="#">
+                    <p class="navitems-text">Earphones</p>
+                </a>
+            </div>
+        </nav>
+        <div class="container flex flex-col lg:justify-btw lg:flex-row" >
+            <div class="wit-100p flex flex-col gap-4 lg:540">
+                <p class="body text-center color-ash lg:text-left">Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.
+                </p>
+                <p class="body text-center color-ash lg:text-left">Copyright 2021. All Rights Reserved</p>
+            </div>
+            <div class="wit-100p flex flex-col items-center lg:items-end justify-center mt-2 lg:mt-0 gap-1-5">
+                <div class="flex gap-1-5">
+                    <img src="./assets/mobile/icon-facebook.svg" alt="Facebook">
+                    <img src="./assets/mobile/icon-twitter.svg" alt="Twitter">
+                    <img src="./assets/mobile/icon-instagram.svg" alt="Instagram">
+                </div>
+                <div>
+                    <p>
+                        Built with ❤️ by <a href="#">Dabelechi Chibuzor</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
